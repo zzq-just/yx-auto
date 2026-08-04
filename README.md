@@ -12,6 +12,7 @@ GitHub: https://github.com/byJoey/yx-auto
 - 多协议支持：VLESS、Trojan、VMess
 - 多客户端格式：Clash、Surge、Quantumult X等
 - 运营商筛选：可以按移动/联通/电信筛选
+- 节点名称前缀：可为所有生成的节点添加自定义前缀
 
 ## 部署
 
@@ -54,6 +55,7 @@ https://your-worker.workers.dev/{UUID}/sub?domain=your-domain.com&epd=yes&epi=ye
 - `epi` - 启用优选IP（默认yes）
 - `egi` - 启用GitHub优选（默认yes）
 - `piu` - 自定义IP来源URL（可选）
+- `prefix` - 节点名称前缀（可选，例如 `US` 会生成 `US-bestcf.top-443-WS-TLS`）
 - `ev` - 启用VLESS（默认yes）
 - `et` - 启用Trojan（默认no）
 - `mess` - 启用VMess（默认no，注意不是vm，会被屏蔽）
